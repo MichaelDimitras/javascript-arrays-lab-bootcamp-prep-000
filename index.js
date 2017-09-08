@@ -16,6 +16,10 @@ function destructivelyPrependKitten(arr, name){
 
 destructivelyRemoveLastKitten(){
   kittens.pop();
-  kittens;
+  return kittens;
 }
 
+destructivelyRemoveFirstKitten{
+  kittens.shift();
+  return kittens
+}
