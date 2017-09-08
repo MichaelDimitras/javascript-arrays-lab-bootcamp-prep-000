@@ -11,5 +11,11 @@ function destructivelyAppendKitten(name){
 
 function destructivelyPrependKitten(arr, name){
   kittens.unshift(name);
-  retuen kittens;
+  return kittens;
 }
+
+destructivelyRemoveLastKitten(){
+  kittens.pop();
+  kittens;
+}
+
